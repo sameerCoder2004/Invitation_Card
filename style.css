@@ -1,0 +1,647 @@
+.container {
+    /* margin:7px 0 23px 0; */
+    width: 80%;
+    background-color: rgb(238, 82, 82);
+    margin: auto;
+    height:fit-content;
+    border: 3mm ridge rgb(252, 159, 122);
+    /* border-radius: 5px; */
+    box-shadow:0px 10px 20px rgb(207, 12, 12) ;
+    padding:10px 0px;
+}
+
+.shlok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shlok .one {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 0 2px 0;
+    text-shadow: #FC0 1px 0 2px;
+}
+
+.shlok .second_first {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.shlok .second {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.first {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 20vw;
+}
+
+.first::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.header {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    image-rendering: pixelated;
+    filter:drop-shadow(0px 0px 20px rgb(252, 242, 197))
+}
+
+.head_name {
+    font-family: "Kalam", cursive;
+    font-size: 60px;
+    color: rgb(250, 239, 239);
+    display: flex;
+    justify-content: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.head_details {
+    font-size: 20px;
+    color: rgb(250, 239, 239);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.name_name {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.groom_name {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(249, 247, 210);
+    margin-left: -15vw;
+    margin-bottom: -15px;
+    text-shadow: rgb(167, 32, 8) 1px 0 20px;
+}
+
+.relation {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(249, 247, 210);
+    margin-left: -10vw;
+    margin-bottom: -15px;
+}
+
+.bride_name {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(249, 247, 210);
+    margin-left: 1vw;
+    text-shadow: rgb(167, 32, 8) 1px 0 20px;
+}
+
+.second_line {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 60vw;
+}
+
+.second_line::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+/* functions */
+
+.functions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_name2 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: "Alkatra", system-ui;
+    color: rgb(250, 239, 239);
+    text-shadow: #FC0 1px 0 10px;
+
+}
+
+.fourth_line {
+    margin-top:-5px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width:25vw;
+    display: none;
+}
+
+.fourth_line::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.function_name {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: row;
+}
+
+.first_function > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_function > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poojan , .haldi, .imp_info, .event_heading{
+    font-size: 45px;
+    font-family: "Rozha One", serif;
+    color: rgb(250, 239, 239);
+    margin-bottom: 10px;
+    text-shadow: #FC0 1px 0 4px;
+}
+
+.func_detail, .address_detail, .event_detail{
+    font-family: "Yatra One", system-ui;
+    font-size: 22px;
+    color: rgb(250, 239, 239);
+}
+
+.third_line {
+    margin-top: 20px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 18vw;
+}
+
+.third_line::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:80%;
+    margin: auto;
+    margin-top:-20px;
+}
+
+.imp_info{
+    margin-top: 60px;
+}
+
+.fifth_line {
+    margin-top: 23px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 30vw;
+}
+
+.fifth_line::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.event_place{
+    font-size: 30px;
+    font-family: "Rozha One", serif;
+    text-shadow: rgb(90, 2, 2) 1px 0 30px;
+    color: rgb(250, 239, 239);
+    margin-top:5px;
+}
+
+.event{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sixth_line {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 70vw;
+}
+
+.sixth_line::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.invitation{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top:20px;
+}
+
+.respect_indicator{
+    margin-left:-50vw;
+}
+
+.invite_message{
+    margin-left:7vw;
+}
+
+.groom , .bride{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;;
+}
+
+.groom_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.groom_name2{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(249, 247, 210);
+    text-shadow: rgb(167, 32, 8) 1px 0 20px;
+}
+
+.doli img{
+    width:350px;
+    height:250px;
+    filter:drop-shadow(10px 0px 10px rgb(246, 172, 172))
+}
+
+.relation2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(249, 225, 210);
+    text-shadow: rgb(167, 32, 8) 1px 0 20px;
+}
+
+.bride{
+    margin-top:-10px;
+}
+
+.img_dulha{
+    margin-top:-10px;
+}
+
+.invitation_2{
+    width:60%;
+}
+
+.word{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: "Tillana", system-ui;
+    font-weight: 600;
+    color: rgb(250, 239, 239);
+    text-shadow: #FC0 0px 0 4px;
+    margin-top:10px;
+}
+
+.organiser{
+    margin-top: 40px;
+    margin-bottom:40px;
+    width:100%;
+    display: flex;
+    align-items:first baseline;
+    justify-content:space-evenly;
+}
+
+.headings{
+    font-size:33px;
+    font-family: "Rozha One", serif;
+    text-shadow: rgb(90, 2, 2) 1px 0 30px;
+    color: rgb(250, 239, 239);
+    margin-bottom: 5px;
+}
+
+.organiser_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yatra One", system-ui;
+    font-size: 18px;
+    color: rgb(250, 239, 239);
+}
+
+.first_one{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.last_third{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    flex-direction: column;
+}
+
+.middle_one{
+    margin-left:60px;
+}
+
+.sub_heading{
+    text-shadow: rgb(182, 232, 84) 1px 0 30px;
+    color:#e5f1a9
+}
+
+.invite_block{
+    margin-top: 80px;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-bottom: -20px;
+}
+
+.owner{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.message{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;   
+    font-family: "Tillana", system-ui;
+    font-weight: 400;
+    color: rgb(250, 239, 239);
+    text-shadow: #FC0 0px 0 4px; 
+}
+
+.message_1{
+    margin-left:-10vw;
+}
+
+.message_2{
+    margin-top:-20px;
+    margin-bottom:-55px;
+}
+
+
+
+@media(max-width :800px) {
+
+    .container{
+        width:97%;
+    }
+    .shlok .one {
+        font-size: 12px;
+    }
+
+    .shlok .second {
+        font-size: 12px;
+    }
+
+    .shlok .second_first {
+        font-size: 12px;
+
+        margin-top: 2px;
+    }
+
+    .first {
+        width: 48%;
+        display: none;
+    }
+
+    .header {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .head_right {
+        margin-top: 0px;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .head_name {
+        font-size: 35px;
+    }
+
+    .head_details {
+        font-size: 10px;
+    }
+
+    .name_name {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .name {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .groom_name,
+    .relation,
+    .bride_name {
+        font-size: 12px;
+    }
+
+    .second_line {
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: -20px;
+    }
+
+    .head_name2{
+        font-size:30px;
+        margin-top:35px;
+    }
+
+    .fourth_line{
+        width:50vw;
+        margin-top:3px;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .function_name{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .poojan, .haldi ,.imp_info, .event_heading{
+        font-size: 25px;
+        margin-top:8px;
+        margin-bottom: 3px;
+    }
+
+    .func_detail , .address_details , .address_detail, .event_detail{
+        font-size: 13px;
+    }
+
+    .fifth_line{
+        width:10vw;
+        margin-top:10px;
+    }
+
+    .third_line{
+        width:33vw;
+        margin-top:10px;
+    }
+
+    .event{
+        margin-top:20px;
+    }
+
+    .event_place{
+        font-size: 20px;
+    }
+
+    .invitation{
+        margin-top:5px;
+    }
+
+    .doli img{
+        width:170px;
+        height:120px;
+    }
+
+    .word{
+        font-size:24px;
+    }
+
+    .invitation_2{
+        width:90%;
+    }
+
+    .info{
+        margin-top:0px;
+    }
+
+    .headings{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .organiser{
+        margin-top: 20px;
+    }
+
+    .organiser_details{
+        font-size: 10px;
+    }
+
+    .middle_one{
+        margin-left:27px;
+    }
+
+    .invite_block{
+        margin-top:-0px;
+        margin-bottom: 15px;
+    }
+    .message{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .message_2{
+        margin-top: -13px;
+    }
+
+    .sixth_line{
+        width:90%;
+    }
+}
